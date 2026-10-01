@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net6.0</TargetFrameworks>
+    <LangVersion>12.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591;CS1573</NoWarn>
+
+    <PackageId>BuyProxy</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>BuyProxy</Authors>
+    <Company>BuyProxy</Company>
+    <Description>Official BuyProxy .NET SDK — generate residential, mobile, ISP and datacenter proxies, manage reseller customers and top up bandwidth. Async, nullable-annotated, no dependencies.</Description>
+    <PackageTags>buyproxy;proxy;proxies;residential-proxies;rotating-proxies;mobile-proxies;isp-proxies;datacenter-proxies;socks5;proxy-api;web-scraping;sdk;dotnet</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://www.buyproxy.org/docs/sdks</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/DishantSinghDev2/buyproxy-dotnet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+
+</Project>
